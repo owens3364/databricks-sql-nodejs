@@ -173,6 +173,7 @@ class OpenIDClientStub implements BaseClient {
       },
 
       FAPI1Client: OpenIDClientStub,
+      FAPI2Client: OpenIDClientStub,
 
       metadata: { issuer: 'test' },
       [custom.http_options]: () => ({}),

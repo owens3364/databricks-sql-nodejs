@@ -139,6 +139,8 @@ export class OAuthCallbackServerStub<
   public unref() {
     return this;
   }
+
+  public async [Symbol.asyncDispose](): Promise<void> {}
 }
 
 export class AuthorizationCodeStub {

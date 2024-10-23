@@ -1,5 +1,5 @@
 {
-  "name": "@databricks/sql",
+  "name": "databricks-sql-nodejs",
   "version": "1.8.4",
   "description": "Driver for connection to Databricks SQL via Thrift API.",
   "main": "dist/index.js",
@@ -26,12 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/databricks/databricks-sql-nodejs/"
+    "url": "https://github.com/owens3364/databricks-sql-nodejs/"
   },
   "bugs": {
-    "url": "https://github.com/databricks/databricks-sql-nodejs/issues"
+    "url": "https://github.com/owens3364/databricks-sql-nodejs/issues"
   },
-  "homepage": "https://github.com/databricks/databricks-sql-nodejs#readme",
+  "homepage": "https://github.com/owens3364/databricks-sql-nodejs#readme",
   "keywords": [
     "databricks sql",
     "hiveserver2",
@@ -49,7 +49,6 @@
   "devDependencies": {
     "@types/chai": "^4.3.14",
     "@types/http-proxy": "^1.17.14",
-    "@types/lz4": "^0.6.4",
     "@types/mocha": "^10.0.6",
     "@types/node": "^18.11.9",
     "@types/node-fetch": "^2.6.4",
@@ -87,8 +86,5 @@
     "thrift": "^0.16.0",
     "uuid": "^9.0.0",
     "winston": "^3.8.2"
-  },
-  "optionalDependencies": {
-    "lz4": "^0.6.5"
   }
 }

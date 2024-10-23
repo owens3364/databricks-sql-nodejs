@@ -416,7 +416,7 @@ export default class DBSQLOperation implements IOperation {
         case TSparkRowSetType.URL_BASED_SET:
           resultSource = new ArrowResultConverter(
             this.context,
-            new CloudFetchResultHandler(this.context, this._data, metadata),
+            new CloudFetchResultHandler(this.context, this._data),
             metadata,
           );
           break;
