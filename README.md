@@ -1,3 +1,10 @@
+# This repository is based on Databricks SQL Driver for Node.js and includes the following changes:
+
+## Version at time of fork: 1.8.4
+
+- Removal of dependency on lz4 and @types/lz4
+- Minor changes in testing stubs to support node 20
+
 # Databricks SQL Driver for Node.js
 
 ![http://www.apache.org/licenses/LICENSE-2.0.txt](http://img.shields.io/:license-Apache%202-brightgreen.svg)
