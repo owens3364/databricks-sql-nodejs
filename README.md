@@ -8,7 +8,7 @@
 # Databricks SQL Driver for Node.js
 
 ![http://www.apache.org/licenses/LICENSE-2.0.txt](http://img.shields.io/:license-Apache%202-brightgreen.svg)
-[![npm](https://img.shields.io/npm/v/@owens3364/databricks-sql-nodejs?color=blue&style=flat)](https://www.npmjs.com/package/@owens3364/databricks-sql-nodejs)
+[![npm](https://img.shields.io/npm/v/databricks-sql-nodejs?color=blue&style=flat)](https://www.npmjs.com/package/databricks-sql-nodejs)
 
 ## Description
 
@@ -21,7 +21,7 @@ The Databricks SQL Driver for Node.js is a Javascript driver for applications th
 ## Installation
 
 ```bash
-npm i @owens3364/databricks-sql-nodejs
+npm i databricks-sql-nodejs
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ npm i @owens3364/databricks-sql-nodejs
 [examples/usage.js](examples/usage.js)
 
 ```javascript
-const { DBSQLClient } = require('@owens3364/databricks-sql-nodejs');
+const { DBSQLClient } = require('databricks-sql-nodejs');
 
 const client = new DBSQLClient();
 
