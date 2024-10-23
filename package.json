@@ -6,11 +6,13 @@
   "types": "dist/index.d.ts",
   "directories": {
     "example": "examples",
+    "lib": "lib",
     "test": "tests"
   },
   "engines": {
     "node": ">=14.0.0"
   },
+  "private": false,
   "scripts": {
     "prepare": "npm run build",
     "e2e": "nyc --report-dir=${NYC_REPORT_DIR:-coverage_e2e} mocha --config tests/e2e/.mocharc.js",
@@ -26,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/owens3364/databricks-sql-nodejs/"
+    "url": "git+https://github.com/owens3364/databricks-sql-nodejs.git"
   },
   "bugs": {
     "url": "https://github.com/owens3364/databricks-sql-nodejs/issues"
@@ -45,7 +47,7 @@
     "hive",
     "hive js"
   ],
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@types/chai": "^4.3.14",
     "@types/http-proxy": "^1.17.14",
@@ -86,5 +88,9 @@
     "thrift": "^0.16.0",
     "uuid": "^9.0.0",
     "winston": "^3.8.2"
-  }
+  },
+  "bin": {
+    "databricks-sql-nodejs": "bin/update-version.js"
+  },
+  "author": "Owen Scott <owens3364@gmail.com>"
 }

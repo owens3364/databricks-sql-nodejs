@@ -1,6 +1,6 @@
 # Contributing Guide
 
-We happily welcome contributions to this package. We use [GitHub Issues](https://github.com/databricks/databricks-sql-nodejs/issues) to track community reported issues and [GitHub Pull Requests](https://github.com/databricks/databricks-sql-nodejs/pulls) for accepting changes.
+We happily welcome contributions to this package. We use [GitHub Issues](https://github.com/owens3364/databricks-sql-nodejs/issues) to track community reported issues and [GitHub Pull Requests](https://github.com/owens3364/databricks-sql-nodejs/pulls) for accepting changes.
 
 Contributions are licensed on a license-in/license-out basis.
 

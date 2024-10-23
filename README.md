@@ -1,4 +1,4 @@
-# This repository is based on Databricks SQL Driver for Node.js and includes the following changes:
+# This repository is based on [Databricks SQL Driver for Node.js](https://github.com/databricks/databricks-sql-nodejs) and includes the following changes:
 
 ## Version at time of fork: 1.8.4
 
@@ -8,9 +8,7 @@
 # Databricks SQL Driver for Node.js
 
 ![http://www.apache.org/licenses/LICENSE-2.0.txt](http://img.shields.io/:license-Apache%202-brightgreen.svg)
-[![npm](https://img.shields.io/npm/v/@databricks/sql?color=blue&style=flat)](https://www.npmjs.com/package/@databricks/sql)
-[![test](https://github.com/databricks/databricks-sql-nodejs/workflows/test/badge.svg?branch=main)](https://github.com/databricks/databricks-sql-nodejs/actions?query=workflow%3Atest+branch%3Amain)
-[![coverage](https://codecov.io/gh/databricks/databricks-sql-nodejs/branch/main/graph/badge.svg)](https://codecov.io/gh/databricks/databricks-sql-nodejs)
+[![npm](https://img.shields.io/npm/v/@owens3364/databricks-sql-nodejs?color=blue&style=flat)](https://www.npmjs.com/package/@owens3364/databricks-sql-nodejs)
 
 ## Description
 
@@ -23,7 +21,7 @@ The Databricks SQL Driver for Node.js is a Javascript driver for applications th
 ## Installation
 
 ```bash
-npm i @databricks/sql
+npm i @owens3364/databricks-sql-nodejs
 ```
 
 ## Usage
@@ -31,7 +29,7 @@ npm i @databricks/sql
 [examples/usage.js](examples/usage.js)
 
 ```javascript
-const { DBSQLClient } = require('@databricks/sql');
+const { DBSQLClient } = require('@owens3364/databricks-sql-nodejs');
 
 const client = new DBSQLClient();
 
